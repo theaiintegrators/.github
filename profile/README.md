@@ -1,145 +1,161 @@
+# 🌐 The AI Integrators  
+_Enterprise AI Orchestration • Evaluation • Observability_
+
 <p align="left">
   <img src="https://img.shields.io/badge/Friday_Framework-active-blue" />
   <img src="https://img.shields.io/badge/license-MIT-yellow" />
   <img src="https://img.shields.io/badge/docs-in%20progress-lightgrey" />
 </p>
 
-# 🌐 The AI Integrators  
-_Modular ecosystem for enterprise-ready multi-agent AI frameworks_
-
-Welcome to **The AI Integrators** — an open-source initiative focused on building **modular, enterprise-ready frameworks for multi-agent AI systems**.
-
-Our mission is to make AI workflows:
-
-- **Reliable**  
-- **Testable**  
-- **Observable**  
-- **Deployable in real enterprises**
-
-The Friday ecosystem achieves this through clean abstractions, modular components, and strong evaluation & observability foundations.
-
 ---
 
-## 📦 Installation (coming soon)
+# 🚀 What We Build
 
-Friday will be installable as a unified package:
+**Friday** is a modular ecosystem for constructing **enterprise-grade multi-agent AI workflows**, inspired by modern agent architectures such as:
 
-```bash
-pip install friday
-```
+- **Microsoft Agent Framework**  
+- **LangGraph-style graph-based orchestration**  
+- **OpenAI Model Context Protocol (MCP)**  
+- **Agent-to-Agent (A2A) communication paradigms**  
+- **LangSmith / DeepEval evaluation patterns**  
+- **LangFuse-style observability pipelines**  
+
+Friday enables organizations to structure AI systems with:
+
+- determinism  
+- auditability  
+- evaluation gates  
+- full traceability  
+- cloud or on-premises flexibility  
+
+Unlike low-code automation tools (Copilot Studio, n8n, etc.), Friday is a **code-first**, framework-level approach for production AI systems.
 
 ---
 
 # 🧩 The Friday Ecosystem
 
-Friday is a growing set of libraries designed to help developers build **deterministic, debuggable multi-agent systems**.
+Friday is composed of three independent but interoperable libraries:
 
 ---
 
-### 🔹 friday-core  
-Multi-agent orchestration engine  
-→ Event loop, routing, agent interface  
-→ The “brain” of the workflow  
+### 🔹 **friday-core**  
+Graph-based orchestration engine for multi-agent workflows.  
+→ Event loop, routing logic, agent abstraction.
 
 **Repo:** https://github.com/theaiintegrators/friday-core
 
 ---
 
-### 🔹 friday-evaluation  
-Evaluation pipeline for validating agent outputs  
-→ Rule-based, LLM-based, and composite evaluators  
-→ DeepEval integration  
+### 🔹 **friday-evaluation**  
+A modular evaluation layer for validating agent decisions.  
+→ Rule-based, LLM-based, or composite evaluators.  
+→ Designed for LangSmith/DeepEval-style workflows.
 
 **Repo:** https://github.com/theaiintegrators/friday-evaluation
 
 ---
 
-### 🔹 friday-observability  
-Tracing, logging & debugging  
-→ Structured agent traces  
-→ Langfuse integration  
-→ Metrics & workflow diagnostics  
+### 🔹 **friday-observability**  
+Tracing and analytics layer for workflow introspection.  
+→ Structured traces  
+→ LangFuse-compatible instrumentation  
+→ Execution metrics & diagnostics
 
 **Repo:** https://github.com/theaiintegrators/friday-observability
 
 ---
 
-# Friday Architecture (High-Level)
+# 🏛 Friday Architecture (High-Level)
 
 ```
            ┌───────────────────┐
            │   Observability   │
+           │ (LangFuse-style)  │
            └─────────▲─────────┘
                      │
                      │
         ┌────────────┴────────────┐
-        │      Orchestration      │
-        │      (friday-core)      │
+        │      Orchestrator       │
+        │  (LangGraph-inspired)   │
         └────────────▲────────────┘
                      │
                      │
-              ┌──────┴───────┐
-              │  Evaluation  │
+              ┌──────┴──────┐
+              │ Evaluation  │
+              │ (LangSmith) │
               └──────────────┘
 ```
 
-The three components form a cohesive triangle:
+This separated architecture enables:
 
-- **Core** handles agent execution  
-- **Evaluation** enforces correctness  
-- **Observability** ensures transparency  
-
-This creates a workflow that is both **powerful** and **controlled**.
-
----
-
-# 🚀 Why Friday?
-
-Modern AI applications require more than a single model call.
-
-Enterprises need:
-
-- multi-step reasoning  
-- task delegation  
-- consistent routing  
-- correctness guarantees  
-- observability for debugging  
-- real metrics  
-- structured outputs  
-
-Existing frameworks often lack these foundations, making it difficult to run agent workflows **safely**.
-
-Friday was created to fill this gap with:
-
-- Clean architecture  
-- Extensibility  
-- Production readiness  
-- Determinism & reliability  
-- First-class evaluation & tracing  
+- transparent execution flow  
+- robust evaluation checkpoints  
+- full traceability across agent steps  
+- plug-in integration with external tools  
 
 ---
 
-# 📦 Roadmap
+# 🔧 Enterprise Design Goals
 
-- [ ] Publish friday-core on PyPI  
-- [ ] Add workflow visualisation UI  
-- [ ] Add Langfuse auto-enrichment  
-- [ ] Add OpenTelemetry support  
-- [ ] Add YAML-defined AI pipelines  
-- [ ] Add built-in agent templates  
-- [ ] Example reference workflows  
+Friday is built for engineering teams that require:
+
+- reproducible multi-agent workflows  
+- deterministic routing over LLM-only decisions  
+- validation & safety gates  
+- production observability  
+- compatibility with cloud / on-prem / hybrid deployments  
+- vendor-neutral extensibility  
+
+It interfaces cleanly with:
+
+- Azure OpenAI  
+- OpenAI  
+- AWS Bedrock  
+- local LLMs  
+- enterprise APIs  
+
+---
+
+# 🧭 Deployment Model
+
+Friday is designed to run in:
+
+- cloud-native environments  
+- Kubernetes / Docker  
+- on-prem enterprise clusters  
+- hybrid architectures  
+
+Its components are intentionally modular and do not enforce vendor lock-in.
+
+---
+
+# 🌟 Roadmap
+
+- MCP tool integration  
+- A2A routing patterns  
+- Workflow visualizer  
+- Parallel graph execution  
+- LangFuse auto-enrichment  
+- Built-in safety evaluators  
+- Friday CLI  
+- Deployment templates (Azure, Docker)  
 
 ---
 
 # 🤝 Contributing
 
-Friday is under active development.  
-Contributions, suggestions, and issues are welcome.
-
-Please open discussions or issues in the respective repositories.
+Friday follows open-source best practices.  
+We welcome contributions, feature requests, and architectural proposals.
 
 ---
 
 # 📄 License
 
-All Friday projects are released under the **MIT License**.
+All Friday components are distributed under the **MIT License**.
+
+---
+
+# ❤️ Maintainers
+
+**The AI Integrators**  
+https://theaiintegrators.ai
