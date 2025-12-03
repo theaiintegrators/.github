@@ -52,7 +52,7 @@ A workflow should be easy to reason about, easy to debug, and easy to test.
         └────────────▲────────────┘
                      │
                      │
-              ┌──────┴──────┐
+              ┌──────┴───────┐
               │  Evaluation  │
               └──────────────┘
 ```
