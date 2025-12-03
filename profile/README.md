@@ -83,7 +83,7 @@ Tracing and analytics layer for workflow introspection.
               ┌──────┴──────┐
               │ Evaluation  │
               │ (LangSmith) │
-              └──────────────┘
+              └─────────────┘
 ```
 
 This separated architecture enables:
