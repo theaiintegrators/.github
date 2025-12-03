@@ -1,5 +1,11 @@
-# 🌐 The AI Integrators
-### _Multi-Agent Orchestration • Evaluation • Observability_
+<p align="left">
+  <img src="https://img.shields.io/badge/Friday_Framework-active-blue" />
+  <img src="https://img.shields.io/badge/license-MIT-yellow" />
+  <img src="https://img.shields.io/badge/docs-in%20progress-lightgrey" />
+</p>
+
+# 🌐 The AI Integrators  
+_Modular ecosystem for enterprise-ready multi-agent AI frameworks_
 
 Welcome to **The AI Integrators** — an open-source initiative focused on building **modular, enterprise-ready frameworks for multi-agent AI systems**.
 
