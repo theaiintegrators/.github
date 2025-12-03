@@ -20,6 +20,16 @@ The Friday ecosystem achieves this through clean abstractions, modular component
 
 ---
 
+## 📦 Installation (coming soon)
+
+Friday will be installable as a unified package:
+
+```bash
+pip install friday
+```
+
+---
+
 # 🧩 The Friday Ecosystem
 
 Friday is a growing set of libraries designed to help developers build **deterministic, debuggable multi-agent systems**.
