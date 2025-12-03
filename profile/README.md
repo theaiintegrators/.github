@@ -58,7 +58,7 @@ Tracing, logging & debugging
                      │
         ┌────────────┴────────────┐
         │      Orchestration      │
-        │        (friday-core)    │
+        │       (friday-core)     │
         └────────────▲────────────┘
                      │
                      │
