@@ -33,6 +33,17 @@ Friday focuses on:
 
 ------------------------------------------------------------------------
 
+## 📘 Overview Diagram
+
+The Friday Ecosystem consists of five coordinated layers:  
+Document Pipeline → Evaluation → Observability → Core → Orchestration Layer
+
+<p align="center">
+  <img src="../docs/00-public-friday.png" width="95%" />
+</p>
+
+------------------------------------------------------------------------
+
 ## 🧩 The Friday Ecosystem
 
 ### 🔹 friday-core
