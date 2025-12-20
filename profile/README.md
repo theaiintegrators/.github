@@ -1,6 +1,6 @@
 # 🌐 The AI Integrators
 
-*Enterprise AI Orchestration • Evaluation • Observability*
+*Multi-agent AI Orchestration • Evaluation • Observability*
 
 <p align="left">
   <a href="https://github.com/theaiintegrators"><img src="https://img.shields.io/badge/Friday--Ecosystem-4B8BF5" /></a>
@@ -8,6 +8,10 @@
   <img src="https://img.shields.io/badge/license-MIT-yellow" />
   <img src="https://img.shields.io/badge/PRs-welcome-brightgreen" />
 </p>
+
+> **Note**  
+> Friday is a personal open-source project built for learning and experimentation with multi-agent orchestration patterns.  
+> It is not affiliated with any employer, customer, or commercial offering.
 
 ------------------------------------------------------------------------
 
