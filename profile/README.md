@@ -55,15 +55,15 @@ Document Pipeline → Evaluation → Observability → Core Orchestration Layer
 Core orchestration & agent runtime.
 https://github.com/theaiintegrators/friday-core
 
-### 🔹 friday-evaluation
-
-Reusable evaluation & scoring engine.
-https://github.com/theaiintegrators/friday-evaluation
-
 ### 🔹 friday-observability
 
 Metrics, dashboards & insights.
 https://github.com/theaiintegrators/friday-observability
+
+### 🔹 friday-evaluation
+
+Reusable evaluation & scoring engine.
+https://github.com/theaiintegrators/friday-evaluation
 
 ------------------------------------------------------------------------
 
